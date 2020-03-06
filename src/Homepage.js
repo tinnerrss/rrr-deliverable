@@ -13,10 +13,11 @@ function Homepage(props) {
     return(
         <Router>
             <div className="homepage">
-                <h1>This is Tin's Blog Page. Hola.</h1>
+                <h1>This is Tin's Blog Page. SUP.</h1>
+                
                 <Link to="/blog">Blog</Link> |
                 <Link to="/about">About</Link> |
-                <Link to="/projets">Projects</Link>
+                <Link to="/projects">Projects</Link>
                 <Route path="/blog" component={Blog} />
                 <Route path="/about" component={About} />
                 <Route path="/projects" component={Projects} />
